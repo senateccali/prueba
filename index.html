@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>Practica 3</title>
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<nav class="menu">
+<img src="senatic.jpg" width="200">
+<a href="#">Inicio</a>
+<a href="#">Productos</a>
+<a href="#">Contacto</a>
+</nav>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="hero-contenido">
+      <h1>Pisa Fuerte, Camina Con Estilo</h1>
+      <p>Descubre la nueva colección de zapatillas con diseños exclusivos y la máxima comodidad para tus pies.</p>
+      <a href="#productos" class="btn">Ver Catálogo</a>
+    </div>
+  </section>
+
+<main>
+<div class="contenedor-principal">
+
+<h1>Bienvenido a Senatic</h1>
+<p>Este es el mundo de la programacion donde aprenderas a programar en HTML y CSS</p>
+<img src="senatic2.jpg">
+</div>
+<div class="grid-productos">
+      <!-- Tarjeta Producto 1 -->
+      <div class="tarjeta-zapato">
+        <span class="etiqueta-nuevo">Nuevo</span>
+        <img src="https://placeholder.com" alt="Zapatilla Urbana">
+        <h3>Zapatilla Air Sport</h3>
+        <p class="descripcion">Ideal para correr y entrenamientos de alta intensidad.</p>
+        <div class="precio-comprar">
+          <span class="precio">$89.99</span>
+          <button class="btn-comprar">Comprar</button>
+        </div>
+      </div>
+</main>
+<footer>
+<P>&copy; 2026 senatic. Todos los derechos reservados</p>
+</footer>
+
+
+
+<style>
+.menu
+{
+position: fixed; 
+top: 0; 
+left: 0;   
+ width: 100%;  
+background-color:#C42A6C;
+display:flex;
+justify-content:flex-start;
+align-items:center;
+gap:20px;
+padding:5px; 
+font-family:Bodoni MT;
+font-size:30px;
+}
+.menu a
+{
+color:white;
+text-decoration:none;
+}
+
+
+.hero {
+    background-color: #A7E7F2;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+}
+
+.hero-contenido h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-contenido p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+
+
+footer
+{
+background-color:#C42A6C;
+color:white;
+font-family:Bodoni MT;
+text-align:center;
+}
+/* Estilos para el contenedor principal */
+.contenedor-principal {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Centra los elementos internos verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para el título h1 */
+.contenedor-principal h1 {
+    color: #0056b3;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el párrafo p */
+.contenedor-principal p {
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Estilos para la imagen */
+.contenedor-principal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+</style>
